@@ -11,7 +11,7 @@
     [x] 1.3.3 Unix & Bash - Parte 1
     [x] 1.4.1 Unix & Bash - Parte 2
 
-### [ ] Bloco 02: Git, GitHub e Internet
+### - [ ] Bloco 02: Git, GitHub e Internet
 
     [ ] 2.1.1 Git & GitHub - O que é e para que serve
     [ ] 2.2.1 Git & GitHub - Entendendo os comandos
