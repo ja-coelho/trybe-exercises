@@ -1,0 +1,12 @@
+test
+if sort
+changes a file
+if it does, then start using < when using sort
+otherwise
+keep using sort as usual
+changes a file
+if it does, then start using < when using sort
+if sort
+keep using sort as usual
+otherwise
+test
