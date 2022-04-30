@@ -80,3 +80,5 @@
     [ ] 9.2.1 JavaScript Assíncrono - Fetch API e async/await
     [ ] 9.3.1 Jest - Testes Assíncronos
     [ ] 9.4.1 Projeto - Carrinho de Compras
+
+- [ ]
