@@ -4,7 +4,7 @@
 
 >N
 
-### - [ ] Bloco 01: Unix & Bash
+### - [x] Bloco 01: Unix & Bash
 
     [x] 1.3.1 Fundamentos do Desenvolvimento Web
     [x] 1.3.2 Introdução - Unix & Shell
