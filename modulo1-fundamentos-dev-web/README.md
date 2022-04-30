@@ -81,4 +81,6 @@
     [ ] 9.3.1 Jest - Testes Assíncronos
     [ ] 9.4.1 Projeto - Carrinho de Compras
 
-- [ ]
+- [ ] dff
+
+- [x] asd
