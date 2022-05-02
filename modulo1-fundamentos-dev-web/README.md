@@ -2,18 +2,18 @@
 
 ## Fundamentos do Desenvolvimento Web
 
->N
+>descricao
 
-### - [x] Bloco 01: Unix & Bash
+### [x] Bloco 01: Unix & Bash
 
-    - [x] 1.3.1 Fundamentos do Desenvolvimento Web
-    - [ ] dff 1.3.2 Introdução - Unix & Shell
+    [x] 1.3.1 Fundamentos do Desenvolvimento Web
+    [x] 1.3.2 Introdução - Unix & Shell
     [x] 1.3.3 Unix & Bash - Parte 1
     [x] 1.4.1 Unix & Bash - Parte 2
 
-### - [ ] Bloco 02: Git, GitHub e Internet
+### [ ] Bloco 02: Git, GitHub e Internet
 
-    - [ ] 2.1.1 Git & GitHub - O que é e para que serve
+    [ ] 2.1.1 Git & GitHub - O que é e para que serve
     [ ] 2.2.1 Git & GitHub - Entendendo os comandos
     [ ] 2.3.1 Internet - Entendendo como ela funciona
 
@@ -80,7 +80,3 @@
     [ ] 9.2.1 JavaScript Assíncrono - Fetch API e async/await
     [ ] 9.3.1 Jest - Testes Assíncronos
     [ ] 9.4.1 Projeto - Carrinho de Compras
-
-- [ ] dff
-
-- [x] asd
