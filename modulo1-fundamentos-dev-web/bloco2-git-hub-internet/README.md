@@ -1,20 +1,15 @@
-### [x] Bloco 02: Git, GitHub e Internet
+### [ ] Bloco 02: Git, GitHub e Internet
 
-Hoje
+>descricao
 
-#### [x] 1.3.1 Fundamentos do Desenvolvimento Web
+#### [x] 2.1.1 Git & GitHub - O que é e para que serve
 
->
+>descricao
 
-#### [x] 1.3.2 Introdução - Unix & Shell
+#### [ ] 2.2.1 Git & GitHub - Entendendo os comandos
 
->
+>descricao
 
-#### [x] 1.3.3 Unix & Bash - Parte 1
+#### [ ] 2.3.1 Internet - Entendendo como ela funciona
 
-> 
-
-#### [x] 1.4.1 Unix & Bash - Parte 2
-
-> 
-
+>descricao
