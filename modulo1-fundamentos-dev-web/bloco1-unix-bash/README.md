@@ -2,7 +2,7 @@
 
 >descricao
 
-#### [x] 1.3.1 Fundamentos do Desenvolvimento Web
+#### <li>- [x] 1.3.1 Fundamentos do Desenvolvimento Web</li>
 
 >descricao
 
