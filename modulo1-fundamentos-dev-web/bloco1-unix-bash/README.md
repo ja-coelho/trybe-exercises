@@ -6,14 +6,14 @@
 
 >descricao
 
-#### [x] 1.3.2 Introdução - Unix & Shell
+#### <ul><li>- [x] 1.3.2 Introdução - Unix & Shell</li></ul>
 
 >descricao
 
-#### [x] 1.3.3 Unix & Bash - Parte 1
+#### <ul><li>- [x] 1.3.3 Unix & Bash - Parte 1</li></ul>
 
 >descricao
 
-#### [x] 1.4.1 Unix & Bash - Parte 2
+#### <ul><li>- [x] 1.4.1 Unix & Bash - Parte 2</li></ul>
 
 >descricao
