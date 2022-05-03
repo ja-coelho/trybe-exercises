@@ -13,9 +13,9 @@
 
 ### <ul><li>- [ ] Bloco 02: Git, GitHub e Internet</li></ul>
 
-    [x] 2.1.1 Git & GitHub - O que é e para que serve
-    [ ] 2.2.1 Git & GitHub - Entendendo os comandos
-    [ ] 2.3.1 Internet - Entendendo como ela funciona
+><ul><li>- [x] 2.1.1 Git & GitHub - O que é e para que serve</li>
+><li>-     [ ] 2.2.1 Git & GitHub - Entendendo os comandos</li>
+><li>-     [ ] 2.3.1 Internet - Entendendo como ela funciona</li></ul>
 
 ### <ul><li>- [ ] Bloco 03: Introdução à HTML e CSS</li></ul>
 
