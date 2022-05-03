@@ -2,52 +2,52 @@
 
 >descricao
 
-## [ ] Fundamentos do Desenvolvimento Web
+## <ul><li>- [ ] Fundamentos do Desenvolvimento Web</li></ul>
 
-    [x] Bloco 01: Unix & Bash
-    [ ] Bloco 02: Git, GitHub e Internet
-    [ ] Bloco 03: Introdução à HTML e CSS
-    [ ] Bloco 04: Introdução à JavaScript e Lógica de Programação
-    [ ] Bloco 05: JavaScript: DOM, Eventos e Web Storage
-    [ ] Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
-    [ ] Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
-    [ ] Bloco 08: Higher Order Functions do JavaScript ES6
-    [ ] Bloco 09: JavaScript e Testes Assíncronos
+><ul><li>- [x] Bloco 01: Unix & Bash</li>
+><li>-     [ ] Bloco 02: Git, GitHub e Internet</li>
+><li>-     [ ] Bloco 03: Introdução à HTML e CSS</li>
+><li>-     [ ] Bloco 04: Introdução à JavaScript e Lógica de Programação</li>
+><li>-     [ ] Bloco 05: JavaScript: DOM, Eventos e Web Storage</li>
+><li>-     [ ] Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo</li>
+><li>-     [ ] Bloco 07: Introdução à JavaScript ES6 e Testes Unitários</li>
+><li>-     [ ] Bloco 08: Higher Order Functions do JavaScript ES6</li>
+><li>-     [ ] Bloco 09: JavaScript e Testes Assíncronos</li></ul>
 
-## [ ] Desenvolvimento Front-end
+## <ul><li>- [ ] Desenvolvimento Front-end</li></ul>
 
-    [ ] Bloco 10: Introdução à React
-    [ ] Bloco 11: Componentes com Estado, Eventos e Formulários com React
-    [ ] Bloco 12: Ciclo de Vida de Componentes e React Router
-    [ ] Bloco 13: Metodologias Ágeis
-    [ ] Bloco 14: Testes automatizados com React Testing Library
-    [ ] Bloco 15: Gerenciamento de estado com Redux
-    [ ] Bloco 16: Projeto Jogo de Trivia
-    [ ] Bloco 17: Context API e React Hooks
-    [ ] Bloco 18: Projeto App de Receitas
+><ul><li>- [ ] Bloco 10: Introdução à React</li>
+><li>-     [ ] Bloco 11: Componentes com Estado, Eventos e Formulários </li>com React
+><li>-     [ ] Bloco 12: Ciclo de Vida de Componentes e React Router</li>
+><li>-     [ ] Bloco 13: Metodologias Ágeis</li>
+><li>-     [ ] Bloco 14: Testes automatizados com React Testing Library</li>
+><li>-     [ ] Bloco 15: Gerenciamento de estado com Redux</li>
+><li>-     [ ] Bloco 16: Projeto Jogo de Trivia</li>
+><li>-     [ ] Bloco 17: Context API e React Hooks</li>
+><li>-     [ ] Bloco 18: Projeto App de Receitas</li></ul>
 
-## [ ] Desenvolvimento Back-end
+## <ul><li>- [ ] Desenvolvimento Back-end</li></ul>
 
-    [ ] Bloco 19: Docker: Utilizando Containers
-    [ ] Bloco 20: Introdução à SQL
-    [ ] Bloco 21: Funções SQL, JOINs e Normalização
-    [ ] Bloco 22: Introdução ao desenvolvimento Web com Node.js
-    [ ] Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
-    [ ] Bloco 24: Node.js: ORM e Autenticação
-    [ ] Bloco 25: Deployment
-    [ ] Bloco 26: TypeScript
-    [ ] Bloco 27: Programação Orientada a Objetos (POO) e SOLID
-    [ ] Bloco 28: Projeto - TFC - Trybe Futebol Clube
-    [ ] Bloco 29: Introdução ao MongoDB
-    [ ] Bloco 30: MongoDB com Node.js e POO
-    [ ] Bloco 31: Projeto - App de Delivery
-    [ ] Bloco 32: MasterClass - VPS, CI/CD
+><ul><li>- [ ] Bloco 19: Docker: Utilizando Containers</li>
+><li>-     [ ] Bloco 20: Introdução à SQL</li>
+><li>-     [ ] Bloco 21: Funções SQL, JOINs e Normalização</li>
+><li>-     [ ] Bloco 22: Introdução ao desenvolvimento Web com Node.js</li>
+><li>-     [ ] Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e </li>Restful
+><li>-     [ ] Bloco 24: Node.js: ORM e Autenticação</li>
+><li>-     [ ] Bloco 25: Deployment</li>
+><li>-     [ ] Bloco 26: TypeScript</li>
+><li>-     [ ] Bloco 27: Programação Orientada a Objetos (POO) e SOLID</li>
+><li>-     [ ] Bloco 28: Projeto - TFC - Trybe Futebol Clube</li>
+><li>-     [ ] Bloco 29: Introdução ao MongoDB</li>
+><li>-     [ ] Bloco 30: MongoDB com Node.js e POO</li>
+><li>-     [ ] Bloco 31: Projeto - App de Delivery</li>
+><li>-     [ ] Bloco 32: MasterClass - VPS, CI/CD</li></ul>
 
-## [ ] Ciência da Computação
+## <ul><li>- [ ] Ciência da Computação</li></ul>
 
-    [ ] Bloco 33: Introdução à Python
-    [ ] Bloco 34: Padrões de Projeto
-    [ ] Bloco 35: Redes e Raspagem de Dados
-    [ ] Bloco 36: Algoritmos
-    [ ] Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets
-    [ ] Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas
+><ul><li>- [ ] Bloco 33: Introdução à Python</li>
+><li>-     [ ] Bloco 34: Padrões de Projeto</li>
+><li>-     [ ] Bloco 35: Redes e Raspagem de Dados</li>
+><li>-     [ ] Bloco 36: Algoritmos</li>
+><li>-     [ ] Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets</li>
+><li>-     [ ] Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas</li></ul>
