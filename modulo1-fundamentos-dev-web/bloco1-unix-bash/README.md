@@ -1,4 +1,4 @@
-###   <li>  - [x]   Bloco 01: Unix & Bash</li> 
+###  <ul><li> - [x] Bloco 01: Unix & Bash </li></ul> 
 
 >descricao
 
