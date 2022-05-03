@@ -6,11 +6,10 @@
 
 ### <ul><li>- [x] Bloco 01: Unix & Bash</li></ul>
 
-   
-><ul><li> -   [x] 1.3.1 Fundamentos do Desenvolvimento Web</li>
->[x] 1.3.2 Introdução - Unix & Shell
->[x] 1.3.3 Unix & Bash - Parte 1
->[x] 1.4.1 Unix & Bash - Parte 2</ul>
+><li>- [x] 1.3.1 Fundamentos do Desenvolvimento Web</li>
+><li>- [x] 1.3.2 Introdução - Unix & Shell </li>
+><li>- [x] 1.3.3 Unix & Bash - Parte 1 </li>
+><li>- [x] 1.4.1 Unix & Bash - Parte 2 </li>
 
 ### <ul><li>- [ ] Bloco 02: Git, GitHub e Internet</li></ul>
 
