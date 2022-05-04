@@ -6,7 +6,7 @@
 
 >descricao
 
-#### <ul><li>- [ ] 2.2.1 Git & GitHub - Entendendo os comandos</li></ul>
+#### <ul><li>- [x] 2.2.1 Git & GitHub - Entendendo os comandos</li></ul>
 
 >descricao
 
