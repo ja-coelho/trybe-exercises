@@ -11,11 +11,11 @@
 ><li>-     [x] 1.3.3 Unix & Bash - Parte 1 </li>
 ><li>-     [x] 1.4.1 Unix & Bash - Parte 2 </li></ul>
 
-### <ul><li>- [ ] Bloco 02: Git, GitHub e Internet</li></ul>
+### <ul><li>- [x] Bloco 02: Git, GitHub e Internet</li></ul>
 
 ><ul><li>- [x] 2.1.1 Git & GitHub - O que é e para que serve</li>
 ><li>-     [x] 2.2.1 Git & GitHub - Entendendo os comandos</li>
-><li>-     [ ] 2.3.1 Internet - Entendendo como ela funciona</li></ul>
+><li>-     [x] 2.3.1 Internet - Entendendo como ela funciona</li></ul>
 
 ### <ul><li>- [ ] Bloco 03: Introdução à HTML e CSS</li></ul>
 
