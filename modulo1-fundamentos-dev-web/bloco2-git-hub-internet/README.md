@@ -1,4 +1,4 @@
-### <ul><li>- [ ] Bloco 02: Git, GitHub e Internet</li></ul>
+### <ul><li>- [x] Bloco 02: Git, GitHub e Internet</li></ul>
 
 >descricao
 
@@ -10,6 +10,6 @@
 
 >descricao
 
-#### <ul><li>- [ ] 2.3.1 Internet - Entendendo como ela funciona</li></ul>
+#### <ul><li>- [x] 2.3.1 Internet - Entendendo como ela funciona</li></ul>
 
 >descricao
