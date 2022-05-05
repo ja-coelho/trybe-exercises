@@ -5,7 +5,7 @@
 ## <ul><li>- [ ] Fundamentos do Desenvolvimento Web</li></ul>
 
 ><ul><li>- [x] Bloco 01: Unix & Bash</li>
-><li>-     [ ] Bloco 02: Git, GitHub e Internet</li>
+><li>-     [x] Bloco 02: Git, GitHub e Internet</li>
 ><li>-     [ ] Bloco 03: Introdução à HTML e CSS</li>
 ><li>-     [ ] Bloco 04: Introdução à JavaScript e Lógica de Programação</li>
 ><li>-     [ ] Bloco 05: JavaScript: DOM, Eventos e Web Storage</li>
