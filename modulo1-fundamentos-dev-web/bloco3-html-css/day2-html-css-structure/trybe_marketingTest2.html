@@ -7,7 +7,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet"> 
 
     <title>Acelere sua carreira em tecnologia aqui e agora | Trybe</title>
 
@@ -26,22 +26,49 @@
         .trybe-green{
             color: #0a7e51;
         }
-
-        #example{
-            background-color: coral;
-        }
-
-        .class-mg{
-            background-color: blue;
+        
+        .hero-title{
+            font-size: 45px;
+            line-height: 55px;
+            font-weight: 600;
         }
         
+        .market-heading{
+            font-size: 28px;
+            line-height: 42px;
+            font-weight: 600;
+        }
+
+        .picture{
+            border-radius: 100%;
+        }
+
+        .student-testimonial-name{
+            font-family: Montserrat, sans-serif;
+            color: #11a36a;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 600;
+        }
+
+        .button{
+            background-color: #11a36a;
+            color: white;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 700;
+            padding: 15px 30px;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+
     </style>
 </head>
 
 <body>
 
     <!-- Seção 1 -->
-    <h1>Sua carreira de sucesso em tecnologia começa aqui. Agora.</h1>
+    <h1 class="hero-title">Sua carreira de sucesso em tecnologia começa aqui. Agora.</h1>
     
     <img src="./images/smiling-image.jpg" alt="homem sorrindo" width="400px">
 
@@ -54,7 +81,7 @@
     <hr>
 
     <!-- Seção 2 -->
-    <h3>A Trybe é para todos, inclusive para você</h3>
+    <h3 class="market-heading">A Trybe é para todos, inclusive para você</h3>
 
     <p>
         Para você que <strong>já é estudante de computação</strong>, para você que <strong>se interessa pelo assunto</strong> e até mesmo para você que está pensando em mudar de carreira e ainda não conhece nada.
@@ -66,38 +93,38 @@
         <strong>E QUE TENHA MUITA VONTADE E DEDICAÇÃO!</strong>
     </p>
     
-    <img src="./images/conrado.png" alt="Foto do Conrado" width="150px">
+    <img class="picture" src="./images/conrado.png" alt="Foto do Conrado" width="150px">
     <p>
     <em>
         "Eu trabalho com Marketing e não tinha nenhuma formação ou experiência na área e consegui entrar na Trybe para me tornar desenvolvedor de software."
     </em>
     </p>
-    <h4 class="trybe-green">
+    <h4 class="trybe-green student-testimonial-name">
         <strong>Conrado Medeiros</strong>
         <br>
         Aluno da Turma de Setembro - BH   
     </h4>
     
     
-    <img src="./images/gabriel.png" alt="Foto do Gabriel" width="150px">
+    <img class="picture" src="./images/gabriel.png" alt="Foto do Gabriel" width="150px">
     <p>
     <em>
         "Eu não sabia nada de programação! Estudei os conteúdos gratuitos disponibilizados, consegui fazer o processo e passar. Estou aqui firme e forte para conseguir virar um desenvolvedor."
     </em>
     </p>    
-    <h4 class="trybe-green">
+    <h4 class="trybe-green student-testimonial-name">
         <strong>Gabriel dos Santos</strong>
         <br>
         Aluno da Turma de Setembro - BH  
     </h4>
         
-    <img src="./images/anderson.png" alt="Foto do Anderson" width="150px">
+    <img class="picture" src="./images/anderson.png" alt="Foto do Anderson" width="150px">
     <p>
     <em>
         "Sou estudante de Engenharia Química e entrei na Trybe sem nenhuma experiência na área e estou animado para me tornar desenvolvedor."
     </em>
     </p>
-    <h4 class="trybe-green">
+    <h4 class="trybe-green student-testimonial-name">
         <strong>Anderson Bolivar</strong>
         <br>
         Aluno da Turma de Setembro - BH  
@@ -105,9 +132,9 @@
     <hr>
 
     <!-- Seção 3 -->
-    <h3>Quem somos e por que estamos aqui?</h3>
+    <h3 class="market-heading">Quem somos e por que estamos aqui?</h3>
 
-    <img src="./images/matheus.jpeg" alt="Foto do Matheus" width="150px">
+    <img class="picture" src="./images/matheus.jpeg" alt="Foto do Matheus" width="150px">
     <p>
         
         "Fundamos a Trybe porque acreditamos que qualquer pessoa que tenha muita vontade de vencer, independente da formação ou da condição financeira, é capaz de ter uma carreira de sucesso."
@@ -119,7 +146,7 @@
     
     </p>
 
-    <img src="./images/joao.jpeg" alt="Foto do Joao" width="150px">
+    <img class="picture" src="./images/joao.jpeg" alt="Foto do Joao" width="150px">
     <p>
         
         "Temos a premissa de fazer os estudantes viverem na prática desafios idênticos aos enfrentados na vida real. Nosso compromisso é tão grande com o sucesso, que a Trybe só ganha se os nossos estudantes estiverem ganhando bem."
@@ -132,13 +159,25 @@
     </p>
     <hr>
 
-    <h3>Como é a formação?</h3>
+    <h3 class="market-heading">Como é a formação?</h3>
     <ul>
-        <li>Atividades online, offline e apoio individual para cada aluno</li>
-        <li>Experiência mão na massa, lidando com desafios e problemas reais</li>
-        <li>Equipe dedicada a te ajudar a encontrar a oportunidade profissional perfeita para você</li>
-        <li>Vivência das rotinas e processos reais de desenvolvimento das empresas de ponta</li>
+        <li>Atividades <strong>online, offline e apoio individual</strong> para cada aluno</li>
+        <br>
+        <li>Experiência <strong>mão na massa</strong>, lidando com <strong>desafios e problemas reais</strong></li>
+        <br>
+        <li>Equipe dedicada a te ajudar a encontrar a <strong>oportunidade profissional perfeita para você</strong></li>
+        <br>
+        <li>Vivência das <strong>rotinas e processos reais</strong> de desenvolvimento das <strong>empresas de ponta</strong></li>
+        <br>
     </ul>
+    <img src="./images/coding.jpeg" alt="pessoas codando" width="400px">
+    <h4>
+        <span>
+            Quer saber mais sobre nossa formação?
+        </span>
+    </h4>
+
+    <a class="button" href="https://betrybe-0.webflow.io/#">Faça download do nosso currículo</a>
 
 </body>
 </html>
