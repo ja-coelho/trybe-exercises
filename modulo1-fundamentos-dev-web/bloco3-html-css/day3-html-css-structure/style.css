@@ -1,0 +1,62 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+p, li{
+    color: #475550;
+}
+
+h1, h3{
+    color: #0a7e51;
+}
+.trybe-green{
+    color: #0a7e51;
+}
+
+.hero-title{
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+}
+
+.market-heading{
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 600;
+}
+
+.picture{
+    border-radius: 100%;
+}
+
+.student-testimonial-name{
+    font-family: Montserrat, sans-serif;
+    color: #11a36a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.button{
+    background-color: #11a36a;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.header{
+    border: 2px solid #0a7e51;
+    background-image: url(./images/smiling-image.jpg);
+    background-size: cover;
+    background-position: 50%, 25%;
+    padding: 60px 60px 60px 40px;
+}
+
+.header-content{
+    
+}
