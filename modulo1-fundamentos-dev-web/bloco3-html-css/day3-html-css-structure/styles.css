@@ -1,0 +1,126 @@
+.super-mario {
+    width: 200px;
+    position: absolute;
+  }
+  
+  .goomba {
+    width: 100px;
+    position: absolute;
+    top: 380px;
+    left: 50px;
+  }
+  
+  .baloon {
+    position: absolute;
+    left: 220px;
+    top: 160px;
+    z-index: 1;
+  }
+
+  .ex2{
+      position: absolute;
+      left: 10px;
+      top: 580px;
+  }
+
+  .ex3{
+      position: absolute;
+      left: 10px;
+      top: 1000px;
+  }
+
+  .ex3 ol li{
+      background-color: yellow;
+  }
+
+  .ex3 ol li:nth-child(even){
+      color: green;
+  }
+
+  .ex3 ol li:nth-of-type(odd){
+      text-transform: uppercase;
+  }
+
+  .ex3 h1, .ex3 h3{
+      color: red;
+  }
+
+  .ex3 ul:nth-of-type(1) li:not(:nth-of-type(n+4)){
+      color: blue;
+  }
+
+
+
+  .ex3 h1 :where(em), .ex3 h3 :is(em){
+      border: solid 1px black;
+      font-size: 40px;
+  }
+
+  .ex3 li{
+      font-size: 20px;
+  }
+
+  .ex3 li :where(em){
+      font-weight: bold;
+  }
+
+  .ex3 a:hover{
+      font-weight: bold;
+  }
+
+  .ex3 a[href*="stackoverflow"]{
+      color: orange;
+  }
+  
+  .ex3 a[href*="w3schools"]{
+      color: green;
+  }
+  
+  .ex2 div:hover{
+      border: 1px;
+      border: solid black;
+  }
+
+  .ex2 div:nth-child(odd) h3 {
+    font-style: italic
+  }
+
+  .ex2 div:nth-of-type(2){
+      font-size: 30px;
+  }
+
+  ul{
+      top: 500px;
+      left: 10px;
+      font-size: 20px;
+      position: absolute;
+      list-style: none;
+  }
+
+  /* li{
+      top: 1200px;
+  } */
+
+  .speech:active{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20px;
+  }
+
+  .speech:hover{
+      color: aqua;
+  }
+
+  .speech {
+    font-size: 25px;
+    position: absolute;
+    left: 240px;
+    top: 200px;
+    z-index: 2;
+  }
+  
+  .bowser {
+    width: 200px;
+    position: absolute;
+    left: 500px;
+    top: 340px;
+  }

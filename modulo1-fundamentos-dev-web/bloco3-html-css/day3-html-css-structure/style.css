@@ -87,15 +87,17 @@ h1, h3{
     /* border: 2px solid red; */
     width: 80%;
     margin: auto;
+    /* display: flex; */
 }
 
 .student-testimonial{
     /* border: 2px solid green; */
-    width: 30%;
+    width: 30.5%;
     display: inline-block;
-    margin: 10px;
-    vertical-align: middle;
+    margin: 5px;
+    vertical-align: top;
     text-align: center;
+    padding: 0px;
 }
 
 .formacao{
@@ -115,4 +117,16 @@ h1, h3{
     vertical-align: middle;
     display: inline-block;
     text-align: center;
+}
+
+#testimonial-1{
+    border: 5px solid black;
+}
+
+#testimonial-2{
+    border: 5px solid black;
+}
+
+#testimonial-3{
+    border: 5px solid black;
 }
