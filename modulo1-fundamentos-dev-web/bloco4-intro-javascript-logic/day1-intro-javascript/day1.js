@@ -102,3 +102,46 @@ function evenNumber(a, b, c) {
     return false;
 }
 
+function saleValue(cost, price) {
+    if (cost <= 0 || price <= 0) {
+        return 'cost or price is less than zero.';
+    }
+    return (price - cost*1.2);
+}
+
+function netSalary(grossSalary) {
+    if (grossSalary < 0) {
+        return 'salary is less than zero';
+    }
+    let afterPension = 0;
+    switch (true) {
+        case (grossSalary <= 1556.94):
+            afterPension = grossSalary - grossSalary * 0.08;
+            break;
+        case (grossSalary <= 2594.92):
+            afterPension = grossSalary - grossSalary * 0.09;
+            break;
+        case (grossSalary <= 5189.82):
+            afterPension = grossSalary - grossSalary * 0.11;
+            break;
+        case (grossSalary >= 5189.82):
+            afterPension = grossSalary - 570.88;
+            break;
+        default:
+            break;
+    }
+    switch (true) {
+        case (afterPension <= 1903.98):
+            return afterPension;
+        case (afterPension <= 2826.65):
+            return afterPension - (afterPension * 0.075 - 142.80);
+        case (afterPension <= 3751.05):
+            return afterPension - (afterPension * 0.15 - 354.80);
+        case (afterPension <= 4664.68):
+            return afterPension - (afterPension * 0.225 - 636.13);
+        case (afterPension >= 4664.68):
+            return afterPension - (afterPension * 0.275 - 869.36);
+        default:
+            return 'invalid salary.';
+    }
+}
