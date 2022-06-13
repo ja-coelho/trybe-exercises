@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6.1 HTML & CSS - Forms</title>
+</head>
+<body>
+    <form action="" method="GET" enctype="multipart/form-data">
+        <label for="namec"> Name:
+            <input type="text" name="name" id="namec" placeholder="your name" required>
+        </label>
+        <br>
+        <label for="input-email"> Email:
+            <input type="email" name="email" id="input-email" placeholder="your email" required>
+        </label>
+        <br>
+        <label for="input-state">State:
+            <select name="state" id="input-state">
+                <option value="sp">SP</option>
+                <option value="rj">RJ</option>
+                <option value="rj2" selected>RJ2</option>
+            </select>
+        </label>
+        <br>
+        <p>Select photo</p>
+        <input type="file" name="photo" id="input-photo">
+        <br>
+        <p>Foods</p>
+        <label for="food1">
+            <input type="radio" name="fav-food" id="food1" value="pizza">Pizza
+        </label>
+        <label for="food2">
+            <input type="radio" name="fav-food" id="food2" value="icecream" checked>IceCream
+        </label>
+        <label for="food3">
+            <input type="radio" name="fav-food" id="food3" value="coke">Coke
+        </label>
+        <br>
+        <p>about you</p>
+        <textarea name="about" id="about-user1" cols="30" rows="10"></textarea>
+        <br>
+        <p>Write password</p>
+        <label for="input-pass">
+            <input type="password" name="password1" id="inpus-pass" required>
+        </label>
+        <br>
+        <label for="checkbox-news">
+            <input type="checkbox" name="news" id="checkbox-news">Wish to receive news?
+        </label>
+        <br>
+        <button type="submit">send</button>
+    </form>
+</body>
+</html>
