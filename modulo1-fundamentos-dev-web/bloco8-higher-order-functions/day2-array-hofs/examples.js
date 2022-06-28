@@ -80,6 +80,3 @@ const peopleArr = [
 peopleArr.sort((element2, element1) => - (element2.age - element1.age));
   
 console.log(peopleArr);
-
-// Exercises
-// Ex1
