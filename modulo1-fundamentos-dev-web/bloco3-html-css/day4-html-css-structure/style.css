@@ -1,0 +1,118 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    /* font-size: 16px; */
+    /* font-weight: 500; */
+}
+
+p, li{
+    /* color: #475550; */
+    color: #323f3a;
+}
+
+h1, h3{
+    color: #0a7e51;
+}
+.trybe-green{
+    color: #0a7e51;
+}
+
+.hero-title{
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+}
+
+.market-heading{
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+
+.picture{
+    border-radius: 100%;
+}
+
+.student-testimonial-name{
+    color: #11a36a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.button{
+    background-color: #11a36a;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.header{
+    /* border: 2px solid #0a7e51; */
+    background-image: url(./images/smiling-image.jpg);
+    background-size: cover;
+    background-position: 50%, 25%;
+    padding: 60px 60px 60px 40px;
+}
+
+.header-content{
+    /* border: 2px solid red; */
+    width: 50%;
+    padding-left: 60px;
+}
+
+.header-content p{
+    /* border: 2px solid red; */
+    width: 80%;
+    
+}
+
+.text-centered{
+    text-align: center;
+}
+
+.marketing{
+    /* border: 2px solid red; */
+    width: 80%;
+    padding: 84px 30px;
+    margin: auto;
+}
+
+.testimonial-wrapper{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+}
+
+.student-testimonial{
+    /* border: 2px solid green; */
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.formacao{
+    background-color: #bababa;
+}
+
+.formacao-left{
+    float: left;
+}
+
+.formacao-right{
+    float: right;
+}
+
+.footer{
+    clear: both;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+}
