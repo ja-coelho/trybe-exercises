@@ -44,8 +44,8 @@ test('if myFizzBuzz(9) returns "fizz"', () => {
   expect(myFizzBuzz(9)).toEqual('fizz')
 });
 
-test('if myFizzBuzz(10) returns "buzz"', () => {
-  expect(myFizzBuzz(10)).toEqual('buzz');
+test('if myFizzBuzz(10) returns "Buzz"', () => {
+  expect(myFizzBuzz(10)).toEqual('Buzz');
 });
 
 test('', () => {
