@@ -8,7 +8,9 @@
   },
   "description": ">descricao",
   "version": "1.0.0",
-  "main": "index.js",
+  "engines": {
+    "node": ">=14.16"
+  },
   "dependencies": {
     "ansi-escapes": "^4.3.2",
     "ansi-regex": "^5.0.1",
@@ -132,7 +134,7 @@
     "minimatch": "^3.1.2",
     "ms": "^2.1.2",
     "natural-compare": "^1.4.0",
-    "node-fetch": "^3.2.6",
+    "node-fetch": "^2.6.7",
     "node-int64": "^0.4.0",
     "node-releases": "^2.0.5",
     "normalize-path": "^3.0.0",
