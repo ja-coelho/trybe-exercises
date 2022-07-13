@@ -1,16 +1,29 @@
-// Definição da função userFullName
-const userFullName = ({ firstName, lastName }) => `Hello! My name is ${firstName} ${lastName}`;
+const countryName = ({ name }) => console.log(`Returned country is ${name}`);
+const countryCurrency = ({ name, currency }) => console.log(`${name}'s currency is the ${currency}`);
 
-// Definição da função getUser
-const getUser = (param) => {
-  const userToReturn = {
-    firstName: "Ivan",
-    lastName: "Ivanovich",
-    nationality: "Russian"
-  };
-  // Retornamos nosso parâmetro, que será uma função (callback)
-  return param(userToReturn);
+const delay = (maxMilliseconds = 5000) => Math.floor(Math.random() * maxMilliseconds);
+
+const printErrorMessage = (error) => console.log(`Error getting country: ${error}`);
+
+const getCountry = (onSuccess, errorHandler) => {
+  setTimeout(() => {
+    const didOperationSucceed = Math.random() >= 0.5;
+    if(didOperationSucceed) {
+      const country = {
+        name: "Brazil",
+        hdi: 0.759,
+        currency: "Real",
+      };
+      onSuccess(country);
+    } else {
+      const errorMessage = "Country could not be found";
+      errorHandler(errorMessage);
+    }
+  }, delay());
 };
 
-// Chamada/execução da função getUser, que vai receber como parâmetro nossa função userFullName.
-getUser(userFullName);
+// Deve imprimir "Returned country is Brazil" no sucesso ou "Error getting country: Country could not be found" em caso de falha
+getCountry(countryName, printErrorMessage);
+
+// Deve imprimir "Brazil's currency is the Real" no sucesso, ou "Error getting country: Country could not be found" em caso de falha
+getCountry(countryCurrency, printErrorMessage);
