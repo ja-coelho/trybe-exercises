@@ -1,29 +1,48 @@
-const countryName = ({ name }) => console.log(`Returned country is ${name}`);
-const countryCurrency = ({ name, currency }) => console.log(`${name}'s currency is the ${currency}`);
-
-const delay = (maxMilliseconds = 5000) => Math.floor(Math.random() * maxMilliseconds);
-
-const printErrorMessage = (error) => console.log(`Error getting country: ${error}`);
-
-const getCountry = (onSuccess, errorHandler) => {
-  setTimeout(() => {
-    const didOperationSucceed = Math.random() >= 0.5;
-    if(didOperationSucceed) {
-      const country = {
-        name: "Brazil",
-        hdi: 0.759,
-        currency: "Real",
-      };
-      onSuccess(country);
-    } else {
-      const errorMessage = "Country could not be found";
-      errorHandler(errorMessage);
-    }
-  }, delay());
+// Exercises
+// Ex3
+const getPlanet = () => {
+  const mars = {
+    name: "Mars",
+    distanceFromSun: {
+      value: 227900000,
+      measurementUnit: "kilometers",
+    },
+  };
+  console.log("Exercise 3\n");
+  console.log("Returned planet: ", mars,'\n');
 };
 
-// Deve imprimir "Returned country is Brazil" no sucesso ou "Error getting country: Country could not be found" em caso de falha
-getCountry(countryName, printErrorMessage);
+setTimeout(() => getPlanet(), 4000); // print Mars after 4 secs
 
-// Deve imprimir "Brazil's currency is the Real" no sucesso, ou "Error getting country: Country could not be found" em caso de falha
-getCountry(countryCurrency, printErrorMessage);
+// Ex4
+
+const messageDelay = () => Math.floor(Math.random() * 5000);
+
+const getMarsTemperature = () => {
+  const maxTemperature = 58;
+  return Math.floor(Math.random() * maxTemperature);
+};
+
+// imprime "Mars temperature is: 20 degree Celsius", por exemplo
+sendMarsTemperature = () => `Exercise 4\nMars temperature is: ${getMarsTemperature()} C\n`;
+
+
+setTimeout(() => console.log(sendMarsTemperature()), messageDelay());
+
+// Ex5
+const toFahrenheit = (degreeCelsius) => (degreeCelsius * 9/5) + 32;
+
+const temperatureInFahrenheit = (temperature) =>
+  console.log(`Exercise 5\nIt is currently ${toFahrenheit(temperature)}ºF at Mars\n`);
+
+const greet = (temperature) =>
+  console.log(`Exercise 5\nHi there! Curiosity here. Right now is ${temperature}ºC at Mars\n`);
+
+sendMarsTemperatureVTwo = (callback) => callback(getMarsTemperature());
+
+// imprime "It is currently 47ºF at Mars", por exemplo
+setTimeout(() => sendMarsTemperatureVTwo(temperatureInFahrenheit), messageDelay());
+// imprime "Hi there! Curiosity here. Right now is 53ºC at Mars", por exemplo
+setTimeout(() => sendMarsTemperatureVTwo(greet), messageDelay());
+
+// Ex6
