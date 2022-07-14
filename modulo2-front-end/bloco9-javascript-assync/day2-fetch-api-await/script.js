@@ -1,60 +1,52 @@
-const jsonInfo = `{
-  "muitasEmpresasUsam": [
-    "Google",
-    "Twitter",
-    "Facebook",
-    "etc..."
-  ],
-  "temVariasVantagens": [
-    "Legível",
-    "Fácil de usar",
-    "Leve",
-    "Popular",
-    "Versátil"
-  ],
-  "muitasLinguagensDaoSuporte": [
-    "Python",
-    "C",
-    "C++",
-    "Java",
-    "PHP"
-  ]
-}`;
+// apiScript.js
+const API_URL_JOKE = 'https://icanhazdadjoke.com/';
 
-const usoJSONPorque = JSON.parse(jsonInfo);
+const fetchJoke = () => {
+  const myObject = {
+    method: 'GET',
+    headers: { Accept: 'application/json' }
+  };
 
-const corporationsList = document.getElementById('corporations-used-by');
-const advantagesList = document.getElementById('advantages');
-const languagesList = document.getElementById('languages-used-by');
+  fetch(API_URL_JOKE, myObject)
+    .then(response => response.json())
+    .then(data => {
+      const jokeContainer = document.querySelector('#jokeContainer');
+      jokeContainer.innerText = data.joke;
+    });
+};
 
-usoJSONPorque.muitasEmpresasUsam.map((empresa) => {
-  const newLi = document.createElement('li');
-  newLi.innerText = empresa;
-  corporationsList.appendChild(newLi);
-});
+const getCurrencyRates = async () => {
+  const fetchObject = {
+    baseUrl: `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest`,
+    endPoint: `/currencies/usd.min.json`
+  };
+  const url = fetchObject.baseUrl + fetchObject.endPoint;
+  const coinData = await fetch(url)
+    .then(response => response.json())
+    .then(data => data.usd.brl)
+    .catch((error) => error.toString());
+  return coinData;
+};
 
-usoJSONPorque.temVariasVantagens.map((vantagens) => {
-  const newLi = document.createElement('li');
-  newLi.innerText = vantagens;
-  advantagesList.appendChild(newLi);
-});
-
-usoJSONPorque.muitasLinguagensDaoSuporte.map((linguagens) => {
-  const newLi = document.createElement('li');
-  newLi.innerText = linguagens;
-  languagesList.appendChild(newLi);
-});
-
-const fetchJoke = async () => {
-  const url = 'https://api.chucknorris.io/jokes/random?category=dev';
-
-  try {
-    const response = await fetch(url);
-    const data = await response.json();
-    console.log(data.value);
-  } catch (error) {
-    console.log('Algo deu errado \n', error);
-  }
+const cryptoValue = async () => {
+  const usdValue =  await getCurrencyRates();
+  console.log(usdValue);
+  await fetch('https://api.coincap.io/v2/assets/')
+    .then(response => response.json())
+    .then((data) => {
+      const cryptoContainer = document.querySelector('#cryptoContainer');
+      const cryptoList = document.createElement('ul');
+      cryptoContainer.appendChild(cryptoList);
+      const filteredData = data.data.filter((item, index) => (index < 10));
+      filteredData.forEach((coin) => {
+        const cryptoItem = document.createElement('li');
+        const coinValue = parseFloat(coin.priceUsd) * usdValue;
+        cryptoItem.innerText = `${coin.name} - ${coin.symbol} - ${coinValue.toFixed(2)}`;
+        cryptoList.appendChild(cryptoItem);
+      });
+    })
+    .catch((error) => error.toString());
 }
 
-fetchJoke();
+window.onload = () => fetchJoke();
+window.onload = () => cryptoValue();
