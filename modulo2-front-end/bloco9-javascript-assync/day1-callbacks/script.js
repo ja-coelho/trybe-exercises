@@ -24,7 +24,7 @@ const getMarsTemperature = () => {
 };
 
 // imprime "Mars temperature is: 20 degree Celsius", por exemplo
-sendMarsTemperature = () => `Exercise 4\nMars temperature is: ${getMarsTemperature()} C\n`;
+sendMarsTemperature = () => `Mars temperature is: ${getMarsTemperature()} C\n`;
 
 
 setTimeout(() => console.log(sendMarsTemperature()), messageDelay());
@@ -33,16 +33,26 @@ setTimeout(() => console.log(sendMarsTemperature()), messageDelay());
 const toFahrenheit = (degreeCelsius) => (degreeCelsius * 9/5) + 32;
 
 const temperatureInFahrenheit = (temperature) =>
-  console.log(`Exercise 5\nIt is currently ${toFahrenheit(temperature)}ºF at Mars\n`);
+  console.log(`It is currently ${toFahrenheit(temperature)}ºF at Mars\n`);
 
 const greet = (temperature) =>
-  console.log(`Exercise 5\nHi there! Curiosity here. Right now is ${temperature}ºC at Mars\n`);
+  console.log(`Hi there! Curiosity here. Right now is ${temperature}ºC at Mars\n`);
 
 sendMarsTemperatureVTwo = (callback) => callback(getMarsTemperature());
 
-// imprime "It is currently 47ºF at Mars", por exemplo
 setTimeout(() => sendMarsTemperatureVTwo(temperatureInFahrenheit), messageDelay());
-// imprime "Hi there! Curiosity here. Right now is 53ºC at Mars", por exemplo
 setTimeout(() => sendMarsTemperatureVTwo(greet), messageDelay());
 
 // Ex6
+const handleError = (errorReason) => console.log(`Error getting temperature: ${errorReason}`);
+
+sendMarsTemperatureVThree = (callback, errorHandler) => {
+  if (Math.random() >= 0.5) {
+    callback(getMarsTemperature());
+  } else {
+    errorHandler('Robot is busy');
+  }
+};
+
+setTimeout(() => sendMarsTemperatureVThree(temperatureInFahrenheit, handleError), messageDelay());
+setTimeout(() => sendMarsTemperatureVThree(greet, handleError), messageDelay());
