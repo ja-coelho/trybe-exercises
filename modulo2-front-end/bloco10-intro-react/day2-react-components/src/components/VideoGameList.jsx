@@ -1,23 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import VideoGame from './VideoGame';
-// import gamesList from '../data';
 
 class VideoGameList extends React.Component {
   render() {
 
     const gamesList = this.props.games;
 
-    const gamesHtmlElements = gamesList.map((game) => {
-      return <VideoGame key={ game.title } game={ game} />
-    });
+    const gamesHtmlElements = gamesList.map((game) => <VideoGame key={ game.id } game={ game } />);
 
     return (
-      <div>
+      <div className='video-game-list'>
         <h1>Best selling games list</h1>
 
         { gamesHtmlElements }
-        
+
       </div>
     );
   }
