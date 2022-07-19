@@ -4,7 +4,7 @@ class VideoGame extends React.Component {
   render() {
     return (
       <div>
-        <h1>Test</h1>
+        <h1>{ this.props.game.title }</h1>
       </div>
     );
   }
